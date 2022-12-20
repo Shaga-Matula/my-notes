@@ -1,6 +1,21 @@
-p {       
-    width: 600px;       
-    text-indent: -8px;       
-    padding: 6px 10px 6px 8px;       
-    background-color: var(--GrayExtraLight); 
+div {
+    background-image: url("https://images.pexels.com/photos/6166527/pexels-photo-6166527.jpeg?auto=compress&cs=tinysrgb&w=1600"); 
+    color:bisque;
 }
+#indent {
+    position: center;
+
+}
+P {       
+   
+    color:bisque;
+    width: 600px;       
+    text-indent: center;       
+    padding: 10px 10px 6px 8px;       
+    background-color: var(--GrayExtraLight); 
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1600"); 
+    text-align: center;
+    border-style: solid;
+    position: center;
+    }
+   
