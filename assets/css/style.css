@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300&display=swap');
 
 body {
-
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 div {
-    background-image: url("https://images.pexels.com/photos/6166527/pexels-photo-6166527.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    color: bisque;
+    /* background-image: url("https://images.pexels.com/photos/6166527/pexels-photo-6166527.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
+    /* color: bisque; */
 }
-
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+}
 #indent {
     position: center;
 
@@ -18,13 +22,21 @@ div {
 
 P {
 
-    color: bisque;
+    /* color: bisque; */
     width: 600px;
     text-indent: center;
     padding: 10px 10px 6px 8px;
     background-color: var(--GrayExtraLight);
-    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    /* background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
     text-align: center;
     border-style: solid;
     position: center;
+}
+#sp_block_1{
+    float: right;
+    overflow: auto;
+}
+#sp_block_2{
+    float: left;
+    background:red;
 }
