@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300&display=swap');
 
 body {
-    font-family: Lato, sans-serif;
+
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1600");    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment:fixed;
+}
+span {
+    border:#3a3a3a;
 }
 div {
     /* background-image: url("https://images.pexels.com/photos/6166527/pexels-photo-6166527.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
-    /* color: bisque; */
+    color: bisque;
 }
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -19,24 +27,25 @@ h1, h2 {
     position: center;
 
 }
-
 P {
 
-    /* color: bisque; */
-    width: 600px;
+    color: bisque;
+    width: 10vp;
+    height: 10vp;
     text-indent: center;
     padding: 10px 10px 6px 8px;
     background-color: var(--GrayExtraLight);
-    /* background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1600"); */
     text-align: center;
     border-style: solid;
     position: center;
 }
 #sp_block_1{
-    float: right;
-    overflow: auto;
+   
+   
 }
 #sp_block_2{
-    float: left;
-    background:red;
-}
+    
+    }
+
+
+/* } */
